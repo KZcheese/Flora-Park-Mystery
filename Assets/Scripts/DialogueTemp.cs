@@ -23,7 +23,7 @@ public class DialogueTemp : MonoBehaviour
     {
         //change later to diable movement temporarily
         //change later to use triggers for specific characters dialogue (in the start method)
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(1)) 
         {
             if (textComponent.text == lines[index])
             {
