@@ -65,10 +65,11 @@ public class DialogueManager : MonoBehaviour
 
     public void NextMessage()
     {
-        activeMessage++;
+        
         if(activeMessage < currentMessages.Length)
         {
             DisplayMessage();
+            activeMessage++;
         }
         else
         {
