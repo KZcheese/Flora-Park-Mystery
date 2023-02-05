@@ -35,7 +35,7 @@ public class NPC : MonoBehaviour
 
             if(Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.name == this.name && playerDetected == true)
+                if (hit.transform.gameObject == this.gameObject && playerDetected == true && DialogueManager.isActive == false)
                 {
                     trigger.StartDialogue(activeAct);
                     
