@@ -4222,7 +4222,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
@@ -4292,7 +4292,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
       propertyPath: m_Name
-      value: flyt
+      value: Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b3111c681f49f7458197c09d2a5ec47,
+        type: 3}
+      propertyPath: m_TagString
+      value: Venus
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
@@ -8754,7 +8759,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &378149037
 GameObject:
@@ -14140,7 +14145,7 @@ Transform:
   - {fileID: 302776410}
   - {fileID: 1190211762}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &652172928
 PrefabInstance:
@@ -16021,7 +16026,7 @@ GameObject:
   - component: {fileID: 710459895}
   m_Layer: 0
   m_Name: Cops
-  m_TagString: Untagged
+  m_TagString: Cops
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16124,7 +16129,7 @@ Transform:
   - {fileID: 1460289409}
   - {fileID: 1892757452}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &710459899
 Rigidbody:
@@ -19315,6 +19320,7 @@ MonoBehaviour:
   talkedDand: 0
   talkedCops: 0
   talkedGrass: 0
+  allPlantsChecked: 0
 --- !u!1 &821573692
 GameObject:
   m_ObjectHideFlags: 0
@@ -25861,7 +25867,7 @@ Transform:
   - {fileID: 1673388895}
   - {fileID: 938691236}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1112737094
 PrefabInstance:
@@ -26061,7 +26067,7 @@ GameObject:
   - component: {fileID: 1122783263}
   m_Layer: 0
   m_Name: Dandelion
-  m_TagString: Untagged
+  m_TagString: Dande
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26094,7 +26100,7 @@ Transform:
   - {fileID: 936039548}
   - {fileID: 1794316124}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1122783263
 MonoBehaviour:
@@ -27508,7 +27514,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157601938
 GameObject:
@@ -27673,7 +27679,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1160586305 stripped
 Transform:
@@ -28625,7 +28631,7 @@ Transform:
   m_Children:
   - {fileID: 16296823}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
 --- !u!1 &1194818180
 GameObject:
@@ -31621,7 +31627,7 @@ GameObject:
   - component: {fileID: 1344757457}
   m_Layer: 0
   m_Name: Poppy
-  m_TagString: Untagged
+  m_TagString: Poppy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31667,7 +31673,7 @@ Transform:
   - {fileID: 1795525628}
   - {fileID: 53034257}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1344757457
 MonoBehaviour:
@@ -36143,6 +36149,204 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 833399400}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1518923496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b3111c681f49f7458197c09d2a5ec47,
+    type: 3}
+  m_PrefabInstance: {fileID: 152048225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1518923500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518923496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1518923501}
+  activeAct: 0
+--- !u!114 &1518923501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518923496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 1
+      message: "Wait don\u2019t come near me! I\u2019m dangerous please stay away!
+        Urgh. "
+    - actorID: 0
+      message: "I\u2019m a human and even I can tell that Venus isn\u2019t feeling
+        well right now. It might be best not to bother them. I\u2019ll search around
+        for other clues first."
+    actors:
+    - name: Moss Internally
+    - name: Venus
+  - atcID: 1
+    messages:
+    - actorID: 1
+      message: "Oh man oh man what am I gonna do? I can\u2019t believe it, I\u2019m
+        a monster! I knew this would happen someday I knew it!"
+    - actorID: 2
+      message: "Whoa hey, you\u2019re panicking again. I told you, there\u2019s no
+        way you hurt this caretaker. You wouldn\u2019t hurt a fly!"
+    - actorID: 1
+      message: "That\u2019s not true! I EAT flies! I\u2019m a flytrap, it's what
+        I do! Besides, you haven\u2019t even been here for a day, how would you know?"
+    - actorID: 2
+      message: "Even in just one night I can see you\u2019re way too gentle to hurt
+        anyone. Besides, you weren\u2019t even awake last night."
+    - actorID: 1
+      message: "Just because I don\u2019t remember what happened doesn\u2019t mean
+        I wasn\u2019t awake. Maybe I blacked out and turned into a monster or something!"
+    - actorID: 0
+      message: "That doesn\u2019t sound like you."
+    - actorID: 1
+      message: "Mr. Moss, no! Get away from me, I\u2019m dangerous! Didn\u2019t you
+        hear? I took a bite out of Ms. Lexus!"
+    - actorID: 3
+      message: "Actually, I\u2019m pretty sure Jonson and Johnsohn said Venus ate
+        her whole, not that he needs to know that\u2026"
+    - actorID: 0
+      message: "Yeah about that\u2026 I don\u2019t think that\u2019s what really
+        happened."
+    - actorID: 2
+      message: Yeha why would you wanna be taken away anyway? This place is so nice.
+        The soil is delicious!
+    - actorID: 3
+      message: "What is that mushroom doing here anyway? I\u2019m pretty sure I would\u2019ve
+        remembered if Venus made a new friend recently. Doesn\u2019t happen very
+        often, and last I checked Lex isn\u2019t a big fan of fungus."
+    - actorID: 0
+      message: "He\u2019s right, you know. Besides, I\u2019ve been searching around
+        and I think I have an idea of what really happened last night."
+    - actorID: 0
+      message: "Someone broke into the garden last night, and I\u2019m pretty sure
+        it wasn\u2019t Lex. Whoever it was didn\u2019t have her gentle touch."
+    - actorID: 1
+      message: "Right! It\u2019s all a bit fuzzy but I do remember someone here.
+        I think they shoved something in my mouth? I don\u2019t know what it was
+        but it was really hard. Didn\u2019t taste good at all."
+    - actorID: 1
+      message: Everything got really blurry after that. Then I woke up in the morning
+        and the funny blue men were saying I ate the gardener! And to top it all
+        off my stomach hurts too.
+    - actorID: 2
+      message: "And now I\u2019m here! Hello sir. You have a funny-looking coat."
+    - actorID: 3
+      message: "Why does everyone say that? It\u2019s not funny looking, it's artistic
+        and thematic."
+    - actorID: 0
+      message: 'I have a feeling I knew what they fed you. Poppy said someone stole
+        a bunch of their pods last night. '
+    - actorID: 3
+      message: "Coffee said something similar with its beans, although I doubt Venus
+        would\u2019ve fallen asleep if she ate a mouthful of coffee."
+    - actorID: 1
+      message: "Oh, I remember the last time I had one of Poppy\u2019s seeds. It
+        got mixed up with the flies Ms. Lex usually feeds me. I felt really weird
+        that afternoon. Super drowsy and my stomach ached a lot."
+    - actorID: 0
+      message: "Sounds a lot like what happened last night. And I doubt you could\u2019ve
+        hurt Lex if you were asleep."
+    - actorID: 1
+      message: "Huh, I guess so\u2026 Does that mean I\u2019m not a monster?"
+    - actorID: 0
+      message: You were never a monster, Venus.
+    - actorID: 3
+      message: "Right now I\u2019m more concerned about that patch on the ground
+        in front of her. It looks like someone was hacking at the ground with reckless
+        abandon."
+    - actorID: 2
+      message: "Hey Mister. Watcha lookin\u2019 at?"
+    - actorID: 0
+      message: "Whatever it is you\u2019re growing out of. I\u2019m sorry, but I
+        think I need to move you out of the way."
+    - actorID: 2
+      message: "That\u2019s okay! I\u2019m just part of a bigger Mushroom underground
+        anyway, so you won\u2019t be hurting me too much. "
+    - actorID: 3
+      message: "Well, that\u2019s good to know. I would\u2019ve dug him up anyway,
+        but I\u2019m glad that won\u2019t be on my conscience."
+    actors:
+    - name: Moss
+    - name: Venus
+    - name: Mushroom
+    - name: Moss Internally
+  - atcID: 2
+    messages:
+    - actorID: 0
+      message: "Moss digs a hole right under Mushroom, revealing what appears to
+        be a sack full of\u2026 coffee grounds? - fade here"
+    - actorID: 1
+      message: "Well, at least it\u2019s not a body. But a bag full of coffee grounds?
+        What is with this guy and coffee? The only person I know who\u2019s this
+        obsessed with coffee is\u2026 the chief\u2026 "
+    - actorID: 0
+      message: Moss continues to dig and finds a tag on the sack.
+    - actorID: 1
+      message: "A tag! I know this brand. It\u2019s the one chief drinks. Pretty
+        expensive stuff. Obscure too. Not many people would have a sack full of this."
+    actors:
+    - name: 
+    - name: Moss Internally
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!65 &1518923502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518923496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15457688, y: 0.14771532, z: 0.045136087}
+  m_Center: {x: -0.01379818, y: -0.003976284, z: -0.00557322}
+--- !u!54 &1518923503
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518923496}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!114 &1518923504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518923496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f3046c11a9afea47b80aa611ab0836b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  venusNPC: {fileID: 1518923500}
+  gameManager: {fileID: 0}
 --- !u!4 &1521301155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4138057623769590, guid: facc5fd5141efde4491e095867e3730e,
@@ -36634,7 +36838,7 @@ RectTransform:
   - {fileID: 35511951}
   - {fileID: 1795599772}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -43245,7 +43449,7 @@ Transform:
   - {fileID: 2042681310}
   - {fileID: 519753529}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1858240477 stripped
 Transform:
@@ -44322,7 +44526,7 @@ Transform:
   - {fileID: 2035672870}
   - {fileID: 1779853951}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1892018661 stripped
 Transform:
@@ -50410,7 +50614,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2117618058 stripped
 Transform:
@@ -51034,6 +51238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GrassTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
@@ -51711,7 +51920,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145212790
 GameObject:
@@ -53868,7 +54077,7 @@ GameObject:
   - component: {fileID: 5681944529735029303}
   m_Layer: 0
   m_Name: Figtreebase
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

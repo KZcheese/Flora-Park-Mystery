@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     public bool talkedPoppy = false;
     public bool talkedDand = false;
     public bool talkedCops = false;
-    public bool talkedGrass = false; 
+    public bool talkedGrass = false;
+
+    public bool allPlantsChecked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(talkedCoffee && talkedCops && talkedDand && talkedFigTree && talkedGrass && talkedPoppy)
+        {
+            allPlantsChecked = true;
+        }
     }
 
 

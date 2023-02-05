@@ -50,6 +50,7 @@ public class NPC : MonoBehaviour
                     }
 
                     CheckPlants();
+                    
                 }
             }
         }
