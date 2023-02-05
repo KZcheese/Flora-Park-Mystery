@@ -234,8 +234,7 @@ public class MenuController : MonoBehaviour {
         //In this part you need to include your save game script to implement the continue function
     }
 
-    //Select scene Event
-    /*
+    /*//Select scene Event
     public void selectScene()
     {
         Destroy(activeBackground[0]);
@@ -278,8 +277,7 @@ public class MenuController : MonoBehaviour {
                 mainMenu = false;
             }
         }
-    }
-    */
+    }*/
 
     //Advances throught the Scenes
     public void advanceScene()
@@ -382,7 +380,6 @@ public class MenuController : MonoBehaviour {
     //Open Options
     public void openOptions()
     {
-        
         OptionsMenu.gameObject.GetComponent<Animation>().Play("Fade In");
         mainMenu = false;
         OptionsMenu.transform.SetAsLastSibling();
