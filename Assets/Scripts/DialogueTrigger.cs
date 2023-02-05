@@ -35,6 +35,7 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().OpenDialogue(actID, act);
         if (panel.activeInHierarchy && startButton.activeInHierarchy && DialogueManager.isActive)
         {
+            startButton.SetActive(false);
             Invoke("RemovePanelAndStartButton", 5f);
             
         }
@@ -43,7 +44,7 @@ public class DialogueTrigger : MonoBehaviour
     private void RemovePanelAndStartButton()
     {
         panel.SetActive(false);
-        startButton.SetActive(false);
+        
     }
 }
 
