@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     public bool allPlantsChecked = false;
 
+    public bool venusTwoChecked = false;
+
+    public bool venusThreeChecked = false;
+
     // Start is called before the first frame update
     void Start()
     {

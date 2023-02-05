@@ -87,6 +87,18 @@ public class NPC : MonoBehaviour
         {
             FindObjectOfType<GameManager>().talkedGrass = true;
         }
+
+        if(this.tag == "Venus" && FindObjectOfType<GameManager>().allPlantsChecked == true)
+        {
+            FindObjectOfType<GameManager>().venusTwoChecked = true;
+        }
+
+        if(this.tag == "Venus" && FindObjectOfType<GameManager>().venusTwoChecked == true)
+        {
+            FindObjectOfType<GameManager>().venusThreeChecked = true;
+        }
+
+
     }
 
     private void OnTriggerEnter(Collider other)

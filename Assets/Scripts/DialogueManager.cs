@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject panel;
     public Venus venusNPC;
 
+
     //Tring the act class based on the currenttMessages and currentActors methods previously set up
     Act[] allActs;
     int activeActID = 0;
@@ -80,34 +81,36 @@ public class DialogueManager : MonoBehaviour
             isActive = false;
 
             //Ending
-            if(venusNPC.venusNPC.activeAct == 1)
-            {
-                Invoke("MoveToVenusActTwo", 2f);
-                //MoveToVenusActTwo();
+            //if(venusNPC.venusNPC.activeAct == 1)
+            //{
+            //    Invoke("MoveToVenusActTwo", 2f);
+            //    //MoveToVenusActTwo();
 
-            }
+            //}
 
-            if (venusNPC.venusNPC.activeAct == 2)
-            {
-                Invoke("MoveToVenusActThree", 2f);
-                //MoveToVenusActTwo();
+            //if (venusNPC.venusNPC.activeAct == 2)
+            //{
+            //    Invoke("MoveToVenusActThree", 2f);
+            //    //MoveToVenusActTwo();
 
-            }
+            //}
+            
         }
     }
 
     private void MoveToVenusActTwo()
     {
+        Debug.Log("act TWO");
         venusNPC.venusNPC.activeAct = 2;
         panel.SetActive(true);
-        venusNPC.venusNPC.trigger.StartDialogue(venusNPC.venusNPC.activeAct);
+        venusNPC.venusNPC.trigger.StartDialogue(2);
     }
 
     private void MoveToVenusActThree()
     {
         venusNPC.venusNPC.activeAct = 3;
         //panel.SetActive(true);
-        venusNPC.venusNPC.trigger.StartDialogue(venusNPC.venusNPC.activeAct);
+        venusNPC.venusNPC.trigger.StartDialogue(3);
     }
 
     void AnimateTextColor()
