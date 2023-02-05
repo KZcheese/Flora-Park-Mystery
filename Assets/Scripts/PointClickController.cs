@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class PointClickController : MonoBehaviour
 {
     NavMeshAgent _navMeshAgent;
+    public GameObject panel;
 
     void Awake() => _navMeshAgent = GetComponent<NavMeshAgent>();
 
@@ -13,6 +14,7 @@ public class PointClickController : MonoBehaviour
     {
         //Not allowing movement when Player is in a convo
         if (DialogueManager.isActive == true) return;
+        if (panel.activeInHierarchy == true) return;
 
 
         //using the nav mesh and collisions to find the the position where the mouse is clicked and the player will go to said position

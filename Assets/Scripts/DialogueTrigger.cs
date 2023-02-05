@@ -6,6 +6,8 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Act[] act;
+    public GameObject panel;
+    public GameObject startButton;
     //public Message[] messages;
     //public Actor[] actors;
 
@@ -25,6 +27,23 @@ public class DialogueTrigger : MonoBehaviour
     public void StartDialogue(int actID)
     {
         FindObjectOfType<DialogueManager>().OpenDialogue(actID, act);
+
+    }
+
+    public void StartDialogueButton(int actID)
+    {
+        FindObjectOfType<DialogueManager>().OpenDialogue(actID, act);
+        if (panel.activeInHierarchy && startButton.activeInHierarchy && DialogueManager.isActive)
+        {
+            Invoke("RemovePanelAndStartButton", 5f);
+            
+        }
+    }
+
+    private void RemovePanelAndStartButton()
+    {
+        panel.SetActive(false);
+        startButton.SetActive(false);
     }
 }
 
