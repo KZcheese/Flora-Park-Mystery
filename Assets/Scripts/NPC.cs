@@ -38,17 +38,53 @@ public class NPC : MonoBehaviour
                 if (hit.transform.gameObject == this.gameObject && playerDetected == true && DialogueManager.isActive == false)
                 {
                     trigger.StartDialogue(activeAct);
-                    
-                    if(activeAct < acts.Length - 1)
+                    Debug.Log("This tag was clicked: " + this.tag);
+                    Debug.Log("Hit tag was: " + hit.transform.tag);
+                    if (activeAct < acts.Length - 1)
                     {
-                        activeAct++;
+                        //activeAct++;
                     }
                     else
                     {
-                        activeAct = 0;
+                        //activeAct = 0;
                     }
+
+                    CheckPlants();
                 }
             }
+        }
+    }
+
+    private void CheckPlants()
+    {
+        if (this.tag == "Coffee")
+        {
+            FindObjectOfType<GameManager>().talkedCoffee = true;
+        }
+
+        if (this.tag == "Dande")
+        {
+            FindObjectOfType<GameManager>().talkedDand = true;
+        }
+
+        if (this.tag == "Poppy")
+        {
+            FindObjectOfType<GameManager>().talkedPoppy = true;
+        }
+
+        if (this.tag == "Tree")
+        {
+            FindObjectOfType<GameManager>().talkedFigTree = true;
+        }
+
+        if (this.tag == "Cops")
+        {
+            FindObjectOfType<GameManager>().talkedCops = true;
+        }
+
+        if (this.tag == "Grass")
+        {
+            FindObjectOfType<GameManager>().talkedGrass = true;
         }
     }
 
