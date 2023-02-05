@@ -38409,7 +38409,11 @@ MonoBehaviour:
   m_text: '"Point & Click" around the map to move.
 
 
-    "Left Click" to continue.'
+    "Left Click" to continue
+    and chat.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
