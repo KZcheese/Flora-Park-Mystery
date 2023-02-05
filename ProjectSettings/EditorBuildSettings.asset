@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 9781db590e0d9c441b5d724253efbb52
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/TheParkGarden.unity
+    guid: e7c27ee3e99379347adcaee9caaf3082
   m_configObjects: {}
