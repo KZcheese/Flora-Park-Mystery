@@ -94,7 +94,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         //Trying with Space Button for now, could change to anything later
-        if (Input.GetKeyDown(KeyCode.Space) && isActive == true)
+        if (Input.GetMouseButtonDown(0) && isActive == true)
         {
             NextMessage();
         }
