@@ -235,6 +235,7 @@ public class MenuController : MonoBehaviour {
     }
 
     //Select scene Event
+    /*
     public void selectScene()
     {
         Destroy(activeBackground[0]);
@@ -278,6 +279,7 @@ public class MenuController : MonoBehaviour {
             }
         }
     }
+    */
 
     //Advances throught the Scenes
     public void advanceScene()
