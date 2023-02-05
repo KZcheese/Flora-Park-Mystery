@@ -26,6 +26,12 @@ public class GameManager : MonoBehaviour
         {
             allPlantsChecked = true;
         }
+        
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            Debug.Log("Quit");
+            Application.Quit();
+        }
     }
 
 
