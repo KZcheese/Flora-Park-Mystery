@@ -41,7 +41,7 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
-    private void RemovePanelAndStartButton()
+    public void RemovePanelAndStartButton()
     {
         panel.SetActive(false);
         

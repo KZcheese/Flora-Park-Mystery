@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
     public Text actorName;
     public Text messageText;
     public RectTransform backgroundBox;
+    public GameObject panel;
+    public Venus venusNPC;
 
     //Tring the act class based on the currenttMessages and currentActors methods previously set up
     Act[] allActs;
@@ -76,7 +78,36 @@ public class DialogueManager : MonoBehaviour
             Debug.Log("Conversation has ended.");
             backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
+
+            //Ending
+            if(venusNPC.venusNPC.activeAct == 1)
+            {
+                Invoke("MoveToVenusActTwo", 2f);
+                //MoveToVenusActTwo();
+
+            }
+
+            if (venusNPC.venusNPC.activeAct == 2)
+            {
+                Invoke("MoveToVenusActThree", 2f);
+                //MoveToVenusActTwo();
+
+            }
         }
+    }
+
+    private void MoveToVenusActTwo()
+    {
+        venusNPC.venusNPC.activeAct = 2;
+        panel.SetActive(true);
+        venusNPC.venusNPC.trigger.StartDialogue(venusNPC.venusNPC.activeAct);
+    }
+
+    private void MoveToVenusActThree()
+    {
+        venusNPC.venusNPC.activeAct = 3;
+        //panel.SetActive(true);
+        venusNPC.venusNPC.trigger.StartDialogue(venusNPC.venusNPC.activeAct);
     }
 
     void AnimateTextColor()
@@ -89,6 +120,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         backgroundBox.transform.localScale = Vector3.zero;
+        venusNPC = FindObjectOfType<Venus>();
     }
 
     // Update is called once per frame

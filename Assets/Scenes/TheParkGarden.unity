@@ -36302,6 +36302,74 @@ MonoBehaviour:
     actors:
     - name: 
     - name: Moss Internally
+  - atcID: 3
+    messages:
+    - actorID: 0
+      message: "So the pieces were coming together. Let\u2019s go over the facts."
+    - actorID: 0
+      message: "Yesterday night, the gardener of the Flora Park, Lexus, mysteriously
+        disappeared. The police think she\u2019s been eaten by Venus, the giant flytrap.
+        I suspect otherwise."
+    - actorID: 0
+      message: Grass said someone came stomping into the garden last night and made
+        a huge ruckus. According to Fig, they were carrying a shovel. Chances are
+        a lot of the vibrations Grass felt were due to the perpetrator digging a
+        hole.
+    - actorID: 0
+      message: Whoever the intruder was, they stole a seed pod from Poppy and several
+        Beans from coffee. The former was fed to Venus to sedate her and give her
+        indigestion. Maybe in order to frame her?
+    - actorID: 0
+      message: "As for the coffee beans\u2026 coffee seems to be coming a lot. Beyond
+        the stolen beans, there\u2019s also a trail of coffeecake crumbs, not to
+        mention the buried \u201Cbody\u201D in front of Venus was full of old coffee
+        grounds."
+    - actorID: 0
+      message: "There\u2019s only one person I know who loves coffee that much, not
+        to mention someone who knows about the coffee in the garden."
+    - actorID: 0
+      message: "The police chief. I don\u2019t know why he would do something like
+        this, but he\u2019s not getting away with this. Whatever he did to Lex, I
+        just hope she\u2019s not hurt."
+    - actorID: 3
+      message: "Moss arrives at the police station and gets outside the chief\u2019s
+        office, only to pause as he hears shouting."
+    - actorID: 1
+      message: "Listen I understand you\u2019re very attached to that flytrap, but
+        you need to listen to reason. Your \u201CVenus\u201D is scaring away the
+        kids! "
+    - actorID: 2
+      message: "You\u2019re the one not listening! Venus wouldn\u2019t even hurt
+        a fly if she didn\u2019t eat them to survive. The worst she could do is give
+        some child a scare! Yeah, he closes his mouth if you stick your hand in,
+        but that doesn\u2019t hurt. If anything, it hurts Venus more than the hand!"
+    - actorID: 1
+      message: "I get that, but it doesn\u2019t stop the kids from getting scared
+        away. We can\u2019t have an empty park, Lexus."
+    - actorID: 2
+      message: "That sounds like the kids\u2019 fault, not Venus\u2019s!"
+    - actorID: 1
+      message: "Well as the police chief, it\u2019s my job to fight for people, not
+        plants. Which is why you\u2019re going to stay here until that flytrap is
+        moved away."
+    - actorID: 1
+      message: Look do you have any idea how many complaints I get about that darn
+        plant? Every day I get a call about some little Timmy running away crying
+        because they got too close.
+    - actorID: 2
+      message: So you decide to kidnap me instead?
+    - actorID: 1
+      message: "I\u2019m just getting the job done. I know you\u2019d find a way
+        to stop us otherwise."
+    - actorID: 3
+      message: Moss enters the room.
+    - actorID: 3
+      message: Moss enters the room.
+    actors:
+    - name: Moss
+    - name: Chief
+    - name: Lexus
+    - name: 
   panel: {fileID: 0}
   startButton: {fileID: 0}
 --- !u!65 &1518923502
@@ -41747,6 +41815,8 @@ MonoBehaviour:
   actorName: {fileID: 435845175}
   messageText: {fileID: 1455533798}
   backgroundBox: {fileID: 1795599772}
+  panel: {fileID: 1215046952}
+  venusNPC: {fileID: 0}
 --- !u!114 &1795599774
 MonoBehaviour:
   m_ObjectHideFlags: 0
