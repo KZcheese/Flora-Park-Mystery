@@ -660,6 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 424662191}
+  activeAct: 0
 --- !u!114 &424662191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,20 +673,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messages:
-  - actorID: 0
-    message: Wassup Motherfucker
-  - actorID: 1
-    message: Sup lIL BITCH
-  - actorID: 0
-    message: FINALLY SOMEBODY KILLED THAT BITCH gggggggggggggggggggggg
-  - actorID: 0
-    message: HE WAS A PAIN TO ME AND MY CREW
-  - actorID: 1
-    message: He was an innocent man....
-  actors:
-  - name: Weeds
-  - name: Player
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 0
+      message: Hey
+    actors:
+    - name: Bleu
+  - atcID: 1
+    messages:
+    - actorID: 1
+      message: Come
+    - actorID: 0
+      message: Why?
+    actors:
+    - name: Player
+    - name: Bleu
+  - atcID: 2
+    messages:
+    - actorID: 1
+      message: Green told me you are a nice guy
+    - actorID: 0
+      message: Really?
+    actors:
+    - name: Player
+    - name: Bleu
 --- !u!135 &424662192
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -756,13 +768,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424662189}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.94, y: 1.3031642, z: 6.8501444}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.27331, y: -1.283387, z: -0.24786758}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1913406165}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &424662196
 Rigidbody:
@@ -927,18 +939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messages:
-  - actorID: 0
-    message: Hello! Welcome to the game!
-  - actorID: 0
-    message: Are you ready to start your investigation?
-  - actorID: 1
-    message: Yes! I'm ready - I'll uproot this murder case in no time
-  - actorID: 0
-    message: Great! Good Luck!
-  actors:
-  - name: Game Master
-  - name: Player
+  act: []
 --- !u!1 &829291508
 GameObject:
   m_ObjectHideFlags: 3
@@ -1042,6 +1043,7 @@ GameObject:
   - component: {fileID: 1082275709}
   - component: {fileID: 1082275715}
   - component: {fileID: 1082275716}
+  - component: {fileID: 1082275717}
   m_Layer: 0
   m_Name: NPC Test
   m_TagString: Untagged
@@ -1061,16 +1063,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messages:
-  - actorID: 0
-    message: Hello Detectve
-  - actorID: 1
-    message: Hello Grass
-  - actorID: 0
-    message: Our friend not here no more
-  actors:
-  - name: Grass Cube
-  - name: Player
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 0
+      message: Howdie
+    - actorID: 0
+      message: Fuck Off
+    actors:
+    - name: Player
+    - name: Green
+  - atcID: 1
+    messages:
+    - actorID: 0
+      message: Hey
+    - actorID: 1
+      message: I SAID FUCK OFF
+    actors:
+    - name: Player
+    - name: Green
+  - atcID: 2
+    messages:
+    - actorID: 1
+      message: go talk to bleu
+    - actorID: 0
+      message: okay
+    actors:
+    - name: Player
+    - name: Green
 --- !u!65 &1082275711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1141,13 +1161,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082275708}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 7.354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.66669, y: -1.0865512, z: 0.25598812}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1913406165}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1082275715
 MonoBehaviour:
@@ -1162,6 +1182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1082275709}
+  activeAct: 0
 --- !u!54 &1082275716
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1178,6 +1199,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1082275717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082275708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6883e82fa5aa50d4494a2c57842b5627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisNPC: {fileID: 1082275715}
+  otherNPC: {fileID: 424662190}
+  actReached: 2
+  otherNpcActtSwitch: 2
+  changeDone: 0
 --- !u!1 &1224367995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,6 +2227,39 @@ MonoBehaviour:
   actorName: {fileID: 1991983578}
   messageText: {fileID: 288422697}
   backgroundBox: {fileID: 1779524626}
+--- !u!1 &1913406164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913406165}
+  m_Layer: 0
+  m_Name: NPC Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913406165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913406164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.66669, y: 2.5865512, z: 7.098012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1082275714}
+  - {fileID: 424662195}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1954814459
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class NPC : MonoBehaviour
 {
     public DialogueTrigger trigger;
     public static bool playerDetected = false;
+    public int activeAct = 0;
+    Act[] acts;
 
     //private void OnCollisionEnter(Collision collision)
     //{
@@ -18,6 +20,12 @@ public class NPC : MonoBehaviour
 
     //}
 
+    public void Start()
+    {
+        acts = trigger.act;
+
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -29,7 +37,16 @@ public class NPC : MonoBehaviour
             {
                 if (hit.transform.name == this.name && playerDetected == true)
                 {
-                    trigger.StartDialogue();
+                    trigger.StartDialogue(activeAct);
+                    
+                    if(activeAct < acts.Length - 1)
+                    {
+                        activeAct++;
+                    }
+                    else
+                    {
+                        activeAct = 0;
+                    }
                 }
             }
         }

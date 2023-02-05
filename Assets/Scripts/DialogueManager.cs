@@ -9,24 +9,46 @@ public class DialogueManager : MonoBehaviour
     public Text messageText;
     public RectTransform backgroundBox;
 
+    //Tring the act class based on the currenttMessages and currentActors methods previously set up
+    Act[] allActs;
+    int activeActID = 0;
+
     Message[] currentMessages;
     Actor[] currentActors;
     int activeMessage = 0;
     public static bool isActive = false;
 
-    public void OpenDialogue(Message[] messages, Actor[] actors)
+
+    public void OpenDialogue(int actID, Act[] acts)
     {
-        currentMessages = messages;
-        currentActors = actors;
+        activeActID = actID;
+        allActs = acts;
+        currentMessages = allActs[activeActID].messages;
+        currentActors = allActs[activeActID].actors;
         activeMessage = 0;
         isActive = true;
 
-        Debug.Log("Started Conversation! Loaded Messages: " + messages.Length);
+        Debug.Log("Started Conversation! Loaded Messages: " + allActs[activeActID].messages.Length);
         DisplayMessage();
 
         //Message Animations
         backgroundBox.LeanScale(Vector3.one, 0.5f);
     }
+
+    //Original Method using messages and actors
+    //public void OpenDialogue(Message[] messages, Actor[] actors)
+    //{
+    //    currentMessages = messages;
+    //    currentActors = actors;
+    //    activeMessage = 0;
+    //    isActive = true;
+
+    //    Debug.Log("Started Conversation! Loaded Messages: " + messages.Length);
+    //    DisplayMessage();
+
+    //    //Message Animations
+    //    backgroundBox.LeanScale(Vector3.one, 0.5f);
+    //}
 
     void DisplayMessage()
     {
@@ -37,6 +59,8 @@ public class DialogueManager : MonoBehaviour
         Actor actorToDisplay = currentActors[messageToDisplay.actorID];
         actorName.text = actorToDisplay.name;
         //Could add sprite to character dialogue
+
+        AnimateTextColor();
     }
 
     public void NextMessage()
@@ -52,6 +76,12 @@ public class DialogueManager : MonoBehaviour
             backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
         }
+    }
+
+    void AnimateTextColor()
+    {
+        LeanTween.textAlpha(messageText.rectTransform, 0, 0);
+        LeanTween.textAlpha(messageText.rectTransform, 1, 0.5f);
     }
     
     // Start is called before the first frame update
