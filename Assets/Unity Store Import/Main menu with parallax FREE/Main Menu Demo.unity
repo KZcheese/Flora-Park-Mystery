@@ -452,6 +452,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 127112, guid: 8ddb9b2166de43d4d85c46d920c4cc95, type: 3}
     - target: {fileID: 11427428, guid: 6f40747fa9c2b6b439dfbb5d6b8ed66a, type: 3}
+      propertyPath: options.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427428, guid: 6f40747fa9c2b6b439dfbb5d6b8ed66a, type: 3}
+      propertyPath: options.Array.data[1]
+      value: Select Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427428, guid: 6f40747fa9c2b6b439dfbb5d6b8ed66a, type: 3}
+      propertyPath: options.Array.data[2]
+      value: 'Options '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427428, guid: 6f40747fa9c2b6b439dfbb5d6b8ed66a, type: 3}
+      propertyPath: options.Array.data[3]
+      value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427428, guid: 6f40747fa9c2b6b439dfbb5d6b8ed66a, type: 3}
       propertyPath: backgrounds.Array.size
       value: 4
       objectReference: {fileID: 0}
