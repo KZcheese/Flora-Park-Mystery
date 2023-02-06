@@ -2217,6 +2217,174 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78626807}
   m_Mesh: {fileID: 4300000, guid: 72e65272e9752d842a914dd27fd86306, type: 3}
+--- !u!1001 &79652655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &79652656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 79652655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &79652657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 79652655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &79652658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79652657}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &79652659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79652657}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 79652658}
+  activeAct: 0
 --- !u!4 &80044202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4923929284851280, guid: dbdf3da5684f16d4fb4464f7337c942e,
@@ -3371,6 +3539,174 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126344704}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &128246370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019999504
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &128246371 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 128246370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &128246372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 128246370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &128246373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128246372}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &128246374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128246372}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 128246373}
+  activeAct: 0
 --- !u!1 &129676628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,7 +4558,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b3111c681f49f7458197c09d2a5ec47,
         type: 3}
@@ -4568,6 +4904,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 240f865433d03a8469d4f5a438765fd7, type: 3}
+--- !u!1001 &177738538
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &177738539 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 177738538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &177738540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 177738538}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &177738541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177738540}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &177738542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177738540}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 177738541}
+  activeAct: 0
 --- !u!1001 &178572133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4672,6 +5176,174 @@ Transform:
   m_Father: {fileID: 489186471}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &179836763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &179836764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 179836763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &179836765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 179836763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &179836766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179836765}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &179836767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179836765}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 179836766}
+  activeAct: 0
 --- !u!4 &180457658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1919368760593702553, guid: c6e854f638107994fb7fcaf03c48c38e,
@@ -5253,6 +5925,156 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199373875}
   m_Mesh: {fileID: 4300000, guid: 72e65272e9752d842a914dd27fd86306, type: 3}
+--- !u!1 &200638375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 200638380}
+  - component: {fileID: 200638379}
+  - component: {fileID: 200638378}
+  - component: {fileID: 200638377}
+  - component: {fileID: 200638376}
+  m_Layer: 0
+  m_Name: Grass
+  m_TagString: Grass
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &200638376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200638375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 200638377}
+  activeAct: 0
+--- !u!114 &200638377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200638375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!65 &200638378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200638375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.143509, y: 0.99, z: 3.5699997}
+  m_Center: {x: 1.6708822, y: 0.26999998, z: -0.22000003}
+--- !u!54 &200638379
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200638375}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!4 &200638380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200638375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.481, y: -3.9393167, z: 9.978539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2132961344}
+  - {fileID: 1925951142}
+  - {fileID: 939588557}
+  - {fileID: 179836764}
+  - {fileID: 1967227076}
+  - {fileID: 177738539}
+  - {fileID: 754179880}
+  - {fileID: 79652656}
+  - {fileID: 1837253775}
+  - {fileID: 1336753176}
+  - {fileID: 1044567252}
+  - {fileID: 1958978284}
+  - {fileID: 1307442193}
+  - {fileID: 2102495726}
+  - {fileID: 1460910852}
+  - {fileID: 638840967}
+  - {fileID: 2138701474}
+  - {fileID: 1609474253}
+  - {fileID: 1111914234}
+  - {fileID: 1579217515}
+  - {fileID: 128246371}
+  - {fileID: 2012039943}
+  - {fileID: 668431795}
+  - {fileID: 1601226162}
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &207501115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8759,7 +9581,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &378149037
 GameObject:
@@ -12731,7 +13553,7 @@ PrefabInstance:
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
@@ -13596,6 +14418,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1580610493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &638840966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1900003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &638840967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 638840966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &638840968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 638840966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &638840969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638840968}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &638840970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638840968}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 638840969}
+  activeAct: 0
 --- !u!1001 &642407207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14145,7 +15135,7 @@ Transform:
   - {fileID: 302776410}
   - {fileID: 1190211762}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &652172928
 PrefabInstance:
@@ -14700,6 +15690,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 357b31d3b75bae24ba0434ac20bfa6d3, type: 3}
+--- !u!1001 &668431794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0400004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &668431795 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 668431794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &668431796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 668431794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &668431797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668431796}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &668431798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668431796}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 668431797}
+  activeAct: 0
 --- !u!1001 &670477399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16129,7 +17287,7 @@ Transform:
   - {fileID: 1460289409}
   - {fileID: 1892757452}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &710459899
 Rigidbody:
@@ -17480,6 +18638,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 734115242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &754179879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07890701
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &754179880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 754179879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &754179881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 754179879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754179882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754179881}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &754179883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754179881}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 754179882}
+  activeAct: 0
 --- !u!1001 &756469590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17763,7 +19089,7 @@ PrefabInstance:
     - target: {fileID: 539735825640844962, guid: a86470fd6cc7db542b515c18a9cbd5c9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 539735825640844962, guid: a86470fd6cc7db542b515c18a9cbd5c9,
         type: 3}
@@ -19321,6 +20647,8 @@ MonoBehaviour:
   talkedCops: 0
   talkedGrass: 0
   allPlantsChecked: 0
+  venusTwoChecked: 0
+  venusThreeChecked: 0
 --- !u!1 &821573692
 GameObject:
   m_ObjectHideFlags: 0
@@ -21631,6 +22959,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 938691235}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &939588556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07890701
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &939588557 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 939588556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &939588558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 939588556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &939588559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939588558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &939588560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939588558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 939588559}
+  activeAct: 0
 --- !u!1001 &940852168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22277,7 +23773,7 @@ PrefabInstance:
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
@@ -24036,6 +25532,174 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 524553ddfbe74334189f5562e045d2a3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d994adf9f1bb3048b05c73f76d42756, type: 3}
+--- !u!1001 &1044567251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2199998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07890701
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1044567252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1044567251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1044567253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1044567251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1044567254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044567253}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1044567255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044567253}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1044567254}
+  activeAct: 0
 --- !u!4 &1045213191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1919368760593702553, guid: c6e854f638107994fb7fcaf03c48c38e,
@@ -25867,8 +27531,176 @@ Transform:
   - {fileID: 1673388895}
   - {fileID: 938691236}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1111914233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019999504
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07890701
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1111914234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1111914233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1111914235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1111914233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1111914236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111914235}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1111914237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111914235}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1111914236}
+  activeAct: 0
 --- !u!1001 &1112737094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26100,7 +27932,7 @@ Transform:
   - {fileID: 936039548}
   - {fileID: 1794316124}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1122783263
 MonoBehaviour:
@@ -26944,7 +28776,7 @@ PrefabInstance:
     - target: {fileID: 3515271205124380569, guid: 8a61f8518b8d6524daa702d89b13870a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3515271205124380569, guid: 8a61f8518b8d6524daa702d89b13870a,
         type: 3}
@@ -27514,7 +29346,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157601938
 GameObject:
@@ -27679,7 +29511,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1160586305 stripped
 Transform:
@@ -28631,7 +30463,7 @@ Transform:
   m_Children:
   - {fileID: 16296823}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 50, y: 45, z: 0}
 --- !u!1 &1194818180
 GameObject:
@@ -30961,6 +32793,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55339d5a4e0b8f41a0448068bd26f4e, type: 3}
+--- !u!1001 &1307442192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2199998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1307442193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307442192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307442194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307442192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1307442195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307442194}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1307442196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307442194}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1307442195}
+  activeAct: 0
 --- !u!1 &1309299708
 GameObject:
   m_ObjectHideFlags: 0
@@ -31499,6 +33499,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1335797526}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1336753175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1336753176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336753175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336753177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336753175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1336753178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336753177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1336753179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336753177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1336753178}
+  activeAct: 0
 --- !u!1 &1340088130
 GameObject:
   m_ObjectHideFlags: 0
@@ -31673,7 +33841,7 @@ Transform:
   - {fileID: 1795525628}
   - {fileID: 53034257}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1344757457
 MonoBehaviour:
@@ -32099,7 +34267,7 @@ PrefabInstance:
     - target: {fileID: 785668154871699084, guid: 17e1d6957034ffe48a805e21c4b80ea5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 785668154871699084, guid: 17e1d6957034ffe48a805e21c4b80ea5,
         type: 3}
@@ -34829,6 +36997,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1460289406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1460910851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07890701
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1460910852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460910851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1460910853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1460910851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1460910854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460910853}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1460910855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460910853}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1460910854}
+  activeAct: 0
 --- !u!4 &1468620658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4923929284851280, guid: dbdf3da5684f16d4fb4464f7337c942e,
@@ -36285,6 +38621,8 @@ MonoBehaviour:
     - name: Venus
     - name: Mushroom
     - name: Moss Internally
+    - name: Chief
+    - name: Lexus
   - atcID: 2
     messages:
     - actorID: 0
@@ -36299,77 +38637,140 @@ MonoBehaviour:
     - actorID: 1
       message: "A tag! I know this brand. It\u2019s the one chief drinks. Pretty
         expensive stuff. Obscure too. Not many people would have a sack full of this."
-    actors:
-    - name: 
-    - name: Moss Internally
-  - atcID: 3
-    messages:
-    - actorID: 0
+    - actorID: 2
       message: "So the pieces were coming together. Let\u2019s go over the facts."
-    - actorID: 0
+    - actorID: 2
       message: "Yesterday night, the gardener of the Flora Park, Lexus, mysteriously
         disappeared. The police think she\u2019s been eaten by Venus, the giant flytrap.
         I suspect otherwise."
-    - actorID: 0
+    - actorID: 2
       message: Grass said someone came stomping into the garden last night and made
         a huge ruckus. According to Fig, they were carrying a shovel. Chances are
         a lot of the vibrations Grass felt were due to the perpetrator digging a
         hole.
-    - actorID: 0
+    - actorID: 2
       message: Whoever the intruder was, they stole a seed pod from Poppy and several
         Beans from coffee. The former was fed to Venus to sedate her and give her
         indigestion. Maybe in order to frame her?
-    - actorID: 0
+    - actorID: 2
       message: "As for the coffee beans\u2026 coffee seems to be coming a lot. Beyond
         the stolen beans, there\u2019s also a trail of coffeecake crumbs, not to
         mention the buried \u201Cbody\u201D in front of Venus was full of old coffee
         grounds."
-    - actorID: 0
+    - actorID: 2
       message: "There\u2019s only one person I know who loves coffee that much, not
         to mention someone who knows about the coffee in the garden."
-    - actorID: 0
+    - actorID: 2
       message: "The police chief. I don\u2019t know why he would do something like
         this, but he\u2019s not getting away with this. Whatever he did to Lex, I
         just hope she\u2019s not hurt."
-    - actorID: 3
+    - actorID: 0
       message: "Moss arrives at the police station and gets outside the chief\u2019s
         office, only to pause as he hears shouting."
-    - actorID: 1
+    - actorID: 3
       message: "Listen I understand you\u2019re very attached to that flytrap, but
         you need to listen to reason. Your \u201CVenus\u201D is scaring away the
         kids! "
-    - actorID: 2
+    - actorID: 4
       message: "You\u2019re the one not listening! Venus wouldn\u2019t even hurt
         a fly if she didn\u2019t eat them to survive. The worst she could do is give
         some child a scare! Yeah, he closes his mouth if you stick your hand in,
         but that doesn\u2019t hurt. If anything, it hurts Venus more than the hand!"
-    - actorID: 1
+    - actorID: 3
       message: "I get that, but it doesn\u2019t stop the kids from getting scared
         away. We can\u2019t have an empty park, Lexus."
-    - actorID: 2
+    - actorID: 4
       message: "That sounds like the kids\u2019 fault, not Venus\u2019s!"
-    - actorID: 1
+    - actorID: 3
       message: "Well as the police chief, it\u2019s my job to fight for people, not
         plants. Which is why you\u2019re going to stay here until that flytrap is
         moved away."
-    - actorID: 1
+    - actorID: 3
       message: Look do you have any idea how many complaints I get about that darn
         plant? Every day I get a call about some little Timmy running away crying
         because they got too close.
-    - actorID: 2
-      message: So you decide to kidnap me instead?
-    - actorID: 1
+    - actorID: 3
       message: "I\u2019m just getting the job done. I know you\u2019d find a way
         to stop us otherwise."
-    - actorID: 3
+    - actorID: 0
       message: Moss enters the room.
+    - actorID: 2
+      message: So would I.
     - actorID: 3
-      message: Moss enters the room.
+      message: Moss!
+    - actorID: 2
+      message: "Normally I would say it\u2019s good to see you, chief, but this time
+        I\u2019m not so sure."
+    - actorID: 4
+      message: Moss, help me get out of here! We need to save Venus!
+    - actorID: 2
+      message: "Yeah, I heard. Glad to see you\u2019re okay Lex."
+    - actorID: 3
+      message: "If you heard us then you know my reasoning. You\u2019re a smart guy
+        Moss, you understand what I\u2019m saying."
+    - actorID: 2
+      message: "That doesn\u2019t justify kidnapping Lex. Or framing Venus for murder."
+    - actorID: 3
+      message: I was going to retract the murder accusation after we got the flytrap
+        out of Flora Park. Most people want it gone anyway, I just needed a good
+        reason.
+    - actorID: 4
+      message: "Most people don\u2019t understand! She\u2019s a Flytrap, not a Humantrap."
+    - actorID: 2
+      message: "If you\u2019re so worried about people touching Venus, why not just
+        put a fence around her?"
+    - actorID: 3
+      message: "The department\u2019s budget is stretched thin as is. It\u2019d be
+        easier to just get that darn plant out of here."
+    - actorID: 1
+      message: "Knowing chief, he probably didn\u2019t even think of trying a fence.
+        The man is capable, but he gets too wrapped up in his work sometimes."
+    - actorID: 2
+      message: "Not with Lex and I around to stop you. Venus isn\u2019t going anywhere.
+        We\u2019ll make sure of that."
+    - actorID: 4
+      message: Yeah!
+    - actorID: 2
+      message: "Besides, I think you owe me a thing or two after all the times I\u2019ve
+        helped you. I think it\u2019s time you help me instead."
+    - actorID: 2
+      message: "It\u2019ll be in your best interest too. Think of the fence as a
+        goodwill gesture for getting this case so wrong. If what you did gets out,
+        your reputation will be dirt."
+    - actorID: 3
+      message: '*sigh'
+    - actorID: 3
+      message: ...
+    - actorID: 3
+      message: ... Fine
+    - actorID: 3
+      message: "But only because I owe you. And if that flytrap causes any more problems,
+        we\u2019re moving it somewhere else. The park isn\u2019t your private garden.
+        People need to be able to visit without being scared off."
+    - actorID: 4
+      message: Skill issue.
+    - actorID: 3
+      message: Lexus!
+    - actorID: 4
+      message: "You know I\u2019m right! But fine. Venus gets overwhelmed easily
+        by people anyway, so a fence will help her too. You pay for it, and I\u2019ll
+        let this go. Besides, you owe Venus an apology for drugging her."
+    - actorID: 2
+      message: "Well, sounds like this case is solved. Let\u2019s get Lex home. Oh,
+        and chief, lay off the coffee."
+    - actorID: 3
+      message: "I\u2019ll have you know, I\u2019ve been cutting down. I only had
+        10 cups today!"
+    - actorID: 4
+      message: That explains why you thought this was a good idea.
+    - actorID: 0
+      message: END
     actors:
+    - name: 
+    - name: Moss Internally
     - name: Moss
     - name: Chief
     - name: Lexus
-    - name: 
   panel: {fileID: 0}
   startButton: {fileID: 0}
 --- !u!65 &1518923502
@@ -36415,6 +38816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   venusNPC: {fileID: 1518923500}
   gameManager: {fileID: 0}
+  panel: {fileID: 1215046952}
+  finishedAct1: 0
 --- !u!4 &1521301155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4138057623769590, guid: facc5fd5141efde4491e095867e3730e,
@@ -36907,7 +39310,7 @@ RectTransform:
   - {fileID: 35511951}
   - {fileID: 1795599772}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -37336,6 +39739,174 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566265839}
   m_Mesh: {fileID: 4300000, guid: 72e65272e9752d842a914dd27fd86306, type: 3}
+--- !u!1001 &1579217514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019999743
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1579217515 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579217514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1579217516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579217514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1579217517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579217516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1579217518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579217516}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1579217517}
+  activeAct: 0
 --- !u!1001 &1580610493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37721,6 +40292,174 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598673500}
   m_Mesh: {fileID: 4300000, guid: 72e65272e9752d842a914dd27fd86306, type: 3}
+--- !u!1001 &1601226161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1601226162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601226161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1601226163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601226161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1601226164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601226163}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1601226165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601226163}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1601226164}
+  activeAct: 0
 --- !u!1 &1607599375
 GameObject:
   m_ObjectHideFlags: 0
@@ -37843,6 +40582,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 955016847}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1609474252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1900003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1609474253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609474252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1609474254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609474252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1609474255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609474254}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1609474256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609474254}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1609474255}
+  activeAct: 0
 --- !u!4 &1610939520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4588435873696250, guid: effb1b31d7e11a54e9b051312c1a2ee4,
@@ -38357,7 +41264,7 @@ PrefabInstance:
     - target: {fileID: 539735825640844962, guid: a86470fd6cc7db542b515c18a9cbd5c9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 539735825640844962, guid: a86470fd6cc7db542b515c18a9cbd5c9,
         type: 3}
@@ -43000,6 +45907,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1832696788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1837253774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1837253775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1837253774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1837253776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1837253774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837253777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837253776}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1837253778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837253776}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1837253777}
+  activeAct: 0
 --- !u!4 &1840303597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4588435873696250, guid: effb1b31d7e11a54e9b051312c1a2ee4,
@@ -43464,7 +46539,7 @@ PrefabInstance:
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3953444733780014110, guid: a7ff883f4aa94b7478533dddd867b4f6,
         type: 3}
@@ -43657,7 +46732,7 @@ Transform:
   - {fileID: 2042681310}
   - {fileID: 519753529}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1858240477 stripped
 Transform:
@@ -44734,7 +47809,7 @@ Transform:
   - {fileID: 2035672870}
   - {fileID: 1779853951}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1892018661 stripped
 Transform:
@@ -46216,6 +49291,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1923815481}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1925951141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.9941206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1925951142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1925951141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1925951143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1925951141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1925951144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925951143}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1925951145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925951143}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1925951144}
+  activeAct: 0
 --- !u!1 &1926567275
 GameObject:
   m_ObjectHideFlags: 0
@@ -47110,6 +50353,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 435091364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1958978283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1958978284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1958978283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1958978285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1958978283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1958978286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958978285}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1958978287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958978285}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1958978286}
+  activeAct: 0
 --- !u!4 &1961712662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1919368760593702553, guid: c6e854f638107994fb7fcaf03c48c38e,
@@ -47337,6 +50748,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adb55fed5a5012b458c398a0b618390c, type: 3}
+--- !u!1001 &1967227075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &1967227076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1967227075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1967227077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1967227075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1967227078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967227077}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &1967227079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967227077}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1967227078}
+  activeAct: 0
 --- !u!4 &1969004514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1919368760593702553, guid: c6e854f638107994fb7fcaf03c48c38e,
@@ -48031,6 +51610,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
+--- !u!1001 &2012039942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &2012039943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2012039942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2012039944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2012039942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012039945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012039944}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &2012039946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012039944}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 2012039945}
+  activeAct: 0
 --- !u!1001 &2019279049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50269,6 +54016,174 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2101030080}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2102495725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &2102495726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2102495725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2102495727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2102495725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2102495728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102495727}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &2102495729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102495727}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 2102495728}
+  activeAct: 0
 --- !u!1 &2103615679
 GameObject:
   m_ObjectHideFlags: 0
@@ -50822,7 +54737,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2117618058 stripped
 Transform:
@@ -51365,7 +55280,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 200638380}
     m_Modifications:
     - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
@@ -51375,7 +55290,7 @@ PrefabInstance:
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
@@ -51395,17 +55310,17 @@ PrefabInstance:
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4868793
+      value: -0.9941206
       objectReference: {fileID: 0}
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.018224
+      value: -0.07890701
       objectReference: {fileID: 0}
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.995098
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
@@ -51420,7 +55335,7 @@ PrefabInstance:
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
         type: 3}
@@ -51467,7 +55382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132961336}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
   m_Name: 
@@ -51481,7 +55396,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132961336}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
   m_Name: 
@@ -51522,35 +55437,12 @@ MonoBehaviour:
     - name: ?????
   panel: {fileID: 0}
   startButton: {fileID: 0}
---- !u!54 &2132961339
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &2132961344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2132961335}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132961336}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 14
-  m_CollisionDetection: 0
---- !u!65 &2132961340
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132961336}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5, y: 1, z: 0.5}
-  m_Center: {x: 0.0029959008, y: 0.039453667, z: -0.008279331}
 --- !u!1001 &2138169121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51624,6 +55516,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: effb1b31d7e11a54e9b051312c1a2ee4, type: 3}
+--- !u!1001 &2138701473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 200638380}
+    m_Modifications:
+    - target: {fileID: 3175836241804466795, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassTest (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3389067da7afee748b6d7271924a6a19, type: 3}
+--- !u!4 &2138701474 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3783328593237427735, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2138701473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2138701475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596703948950117549, guid: 3389067da7afee748b6d7271924a6a19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2138701473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2138701476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138701475}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b96042d6a2f2498d17dc15db222e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  act:
+  - atcID: 0
+    messages:
+    - actorID: 2
+      message: 'MMMM MMMM! '
+    - actorID: 1
+      message: "There we go! You\u2019d think with how often you come here you\u2019d
+        learn not to stomp on my blades!"
+    - actorID: 0
+      message: 'Sorry I was lost in thought. '
+    - actorID: 1
+      message: "Well, lose your thought somewhere else! You\u2019re here to do that
+        thing where you figure everything out right? Better than those grass-stomping
+        idiots."
+    - actorID: 0
+      message: "Yeah, about that. You wouldn\u2019t happen to know what happened
+        to Lex, would you? Jonson and Johnson think Venus ate her."
+    - actorID: 1
+      message: Venus? Eat the caretaker?! Those grass stompers are outta their minds!
+        Only thing Venus eats is flies, and she gets all sad about it too!
+    - actorID: 1
+      message: Look, I don't know much about what happened. Pretty hard to see anything
+        from down here at the best of times.
+    - actorID: 1
+      message: What I can tell you is that last night someone came by and made a
+        huge ruckus. Could feel all the noise in my roots. Like someone got real
+        mad at the ground. Lots of stomping and stuff.
+    - actorID: 1
+      message: "That\u2019s about all I got. You might wanna talk to the others.
+        I\u2019m sure they have more to say."
+    actors:
+    - name: Moss
+    - name: Grass
+    - name: ?????
+  panel: {fileID: 0}
+  startButton: {fileID: 0}
+--- !u!114 &2138701477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138701475}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486caf9c3448d804d85336b318c2a2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 2138701476}
+  activeAct: 0
 --- !u!4 &2139635724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4739541837513720, guid: 883cf758fdbaad44fbf987329131dbfb,
@@ -52128,7 +56188,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145212790
 GameObject:

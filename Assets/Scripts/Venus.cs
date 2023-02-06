@@ -29,7 +29,8 @@ public class Venus : MonoBehaviour
         if(gameManager.venusTwoChecked == true)
         {
             venusNPC.activeAct = 2;
-            venusNPC.trigger.StartDialogue(2);
+            //ending();
+           // venusNPC.trigger.StartDialogue(2);
         }
 
         if(gameManager.venusThreeChecked == true)
@@ -44,7 +45,7 @@ public class Venus : MonoBehaviour
     {
         if(venusNPC.activeAct == 2)
         {
-
+            //venusNPC.trigger.StartDialogue(2);
         }
     }
 }

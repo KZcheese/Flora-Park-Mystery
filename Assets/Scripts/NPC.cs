@@ -40,14 +40,14 @@ public class NPC : MonoBehaviour
                     trigger.StartDialogue(activeAct);
                     Debug.Log("This tag was clicked: " + this.tag);
                     Debug.Log("Hit tag was: " + hit.transform.tag);
-                    if (activeAct < acts.Length - 1)
-                    {
-                        //activeAct++;
-                    }
-                    else
-                    {
-                        //activeAct = 0;
-                    }
+                    //if (activeAct == 2)
+                    //{
+                    //    //trigger.StartDialogue(activeAct);
+                    //}
+                    //else
+                    //{
+                    //    //activeAct = 0;
+                    //}
 
                     CheckPlants();
                     
@@ -93,10 +93,10 @@ public class NPC : MonoBehaviour
             FindObjectOfType<GameManager>().venusTwoChecked = true;
         }
 
-        if(this.tag == "Venus" && FindObjectOfType<GameManager>().venusTwoChecked == true)
-        {
-            FindObjectOfType<GameManager>().venusThreeChecked = true;
-        }
+        //if(this.tag == "Venus" && FindObjectOfType<GameManager>().venusTwoChecked == true)
+        //{
+        //    FindObjectOfType<GameManager>().venusThreeChecked = true;
+        //}
 
 
     }
